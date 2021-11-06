@@ -1,0 +1,61 @@
+.markdown {
+  padding: 50px 150px;
+  display: flex;
+}
+.markdown__left {
+  width: 50%;
+  background-color: black;
+  display: block;
+  color: white;
+  padding: 20px;
+  min-height: 500px;
+}
+.markdown__right {
+  width: 50%;
+  padding: 20px;
+  word-wrap: break-word;
+  border: 1px solid #ddd;
+  a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    margin: 5px 0;
+  }
+  img {
+    width: 100%;
+  }
+  blockquote {
+    padding: 10px;
+    background-color: #ddd;
+    border-left: 6px solid #bbb;
+    margin: 10px 0;
+  }
+  pre {
+    background-color: whitesmoke;
+    color: #2b2828;
+    font-size: 0.875em;
+    overflow-x: auto;
+    padding: 1.25 rem 1.5 rem;
+    white-space: pre;
+    word-wrap: normal;
+    padding: 15px;
+    code {
+      color: #2b2828;
+    }
+  }
+  code {
+    background-color: whitesmoke;
+    color: #ff3860;
+    font-size: 0.875em;
+    font-weight: normal;
+    padding: 0.25 em 0.5 em 0.25 em;
+  }
+  li {
+    margin-left: 40px;
+  }
+}
